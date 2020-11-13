@@ -1,0 +1,20 @@
+{
+  "name": "newApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . app --win --out output --arch=x64 --electron-version 10.0.0 --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.5",
+    "electron-packager": "^15.1.0"
+  },
+  "dependencies": {
+    "systeminformation": "^4.30.1"
+  }
+}
